@@ -89,7 +89,7 @@
       </VBox>
       <HBox layoutY="791.0" prefHeight="20.0" prefWidth="1250.0" spacing="2.0" style="-fx-background-color: #267ebb;">
          <children>
-            <Text fx:id="prnt" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: consolas; -fx-font-size: 15; -fx-font-weight: bold;" text="java fx is cool" />
+            <Text fx:id="prnt" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: consolas; -fx-font-size: 15; -fx-font-weight: bold;" />
          </children>
          <padding>
             <Insets left="10.0" top="3.0" />
@@ -259,10 +259,10 @@
          </children>
       </AnchorPane>
       <TextArea fx:id="PREVIEW_PANE" layoutX="625.0" layoutY="137.0" prefHeight="532.0" prefWidth="567.0" />
-      <JFXButton fx:id="generate" layoutX="1040.0" layoutY="723.0" prefHeight="39.0" prefWidth="152.0" text="GENERATE" />
-      <HBox layoutX="950.0" layoutY="684.0" prefHeight="27.0" prefWidth="242.0" spacing="10.0">
+      <JFXButton fx:id="generate" layoutX="950.0" layoutY="722.0" prefHeight="39.0" prefWidth="242.0" styleClass="add_bt" stylesheets="@../resources/styles.css" text="GENERATE" />
+      <HBox layoutX="950.0" layoutY="683.0" prefHeight="27.0" prefWidth="242.0" spacing="10.0" style="-fx-background-color: #0e0e0e;">
          <children>
-            <JFXButton fx:id="undo_bt" prefWidth="75.0" text="UNDO" />
+            <JFXButton fx:id="undo_bt" prefWidth="75.0" styleClass="cancel_bt" stylesheets="@../resources/styles.css" text="UNDO" />
             <JFXButton fx:id="zoom_in_pta" prefWidth="75.0" text="+" />
             <JFXButton fx:id="zoom_out_pta" prefWidth="75.0" text="-" />
          </children>

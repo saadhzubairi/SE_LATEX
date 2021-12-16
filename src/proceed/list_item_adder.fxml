@@ -5,12 +5,11 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="AnchorPane" stylesheets="@../resources/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proceed.ListItemAdder">
    <children>
       <Label layoutX="234.0" layoutY="31.0" text="Add Item" />
       <TextArea fx:id="text_area" layoutX="49.0" layoutY="100.0" prefHeight="200.0" prefWidth="505.0" />
-      <JFXButton fx:id="add_bt" layoutX="174.0" layoutY="317.0" prefHeight="40.0" prefWidth="120.0" text="Add" />
-      <JFXButton fx:id="cancel_bt" layoutX="308.0" layoutY="317.0" prefHeight="40.0" prefWidth="120.0" text="Canel" />
+      <JFXButton fx:id="add_bt" layoutX="174.0" layoutY="317.0" prefHeight="40.0" prefWidth="120.0" styleClass="add_bt" stylesheets="@../resources/styles.css" text="Add" />
+      <JFXButton fx:id="cancel_bt" layoutX="308.0" layoutY="317.0" prefHeight="40.0" prefWidth="120.0" styleClass="cancel_bt" stylesheets="@../resources/styles.css" text="Canel" />
    </children>
 </AnchorPane>
