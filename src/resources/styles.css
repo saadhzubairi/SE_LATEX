@@ -155,6 +155,8 @@ DatePicker{
 
 JFXButton{
     -fx-text-fill: white;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-background-color: #569cd6;
     -fx-font-size: 15;
     -fx-background-radius: 20;
