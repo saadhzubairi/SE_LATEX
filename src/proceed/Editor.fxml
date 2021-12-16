@@ -87,7 +87,13 @@
             </JFXButton>
          </children>
       </VBox>
-      <HBox layoutY="791.0" prefHeight="20.0" prefWidth="1250.0" style="-fx-background-color: #267ebb;" />
+      <HBox layoutY="791.0" prefHeight="20.0" prefWidth="1250.0" spacing="2.0" style="-fx-background-color: #267ebb;">
+         <children>
+            <Text fx:id="prnt" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: consolas; -fx-font-size: 15; -fx-font-weight: bold;" text="java fx is cool" />
+         </children>
+         <padding>
+            <Insets left="10.0" top="3.0" />
+         </padding></HBox>
       <Label depthTest="DISABLE" layoutX="648.0" layoutY="66.0" text="Preview" />
       <AnchorPane fx:id="LIST_ANCHORPANE" layoutY="-762.0" prefHeight="762.0" prefWidth="519.0" styleClass="AnchorPane" stylesheets="@../resources/styles.css">
          <children>

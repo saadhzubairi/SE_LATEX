@@ -16,6 +16,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -69,7 +70,7 @@ public class Editor_Control implements Initializable {
     public JFXButton generate;
     public JFXButton undo_bt;
     public JFXButton file_path_item_bt;
-
+    public Text prnt;
 
 
     int display_size_pta = 18;
@@ -130,6 +131,15 @@ public class Editor_Control implements Initializable {
         });
 
         Timeline UpdateTracker = new Timeline(new KeyFrame(Duration.seconds(0.1), event -> {
+
+            if(title_t.getText().equals("") || subtitle_t.getText().equals("") || author_t.getText().equals("")) {
+                generate.setDisable(true);
+                print("Please enter all details in info section before generating");
+            }
+            else{
+                generate.setDisable(false);
+                emptify();
+            }
 
             if(ps_body_text_tf.getText().equals(""))
                 line_break_bt.setDisable(false);
@@ -509,5 +519,12 @@ public class Editor_Control implements Initializable {
     void zoom_pta(int z){
         PREVIEW_PANE.setStyle("-fx-font-size: "+(display_size_pta+z*2));
         display_size_pta = display_size_pta + z;
+    }
+
+    void print(String s){
+        prnt.setText(s);
+    }
+    void emptify(){
+        print("");
     }
 }
