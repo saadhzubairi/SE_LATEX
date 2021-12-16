@@ -1,5 +1,5 @@
 * {
-    -fx-primary-color: #569cd6;
+    -fx-primary-color: #008eff;
     -fx-secondary-color: #56b1ff;
     -fx-light-grey-color: #d1d1d1;
     -fx-dark-grey-color: #1e1e1e;
@@ -7,6 +7,8 @@
 }
 
 .date-picker .cell{
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-background-color: #1e1e1e;
     -fx-font-size: 18;
 }
@@ -22,13 +24,16 @@
     -fx-background-color: white;
 }
 .date-picker .cell {
-    -fx-background-color: #2c5677;
+    -fx-font-family: Consolas;
+    -fx-background-color: #132029;
     -fx-text-fill: white;
     -fx-background-radius: 0;
-    -fx-border-width: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #1b3970;
 }
 .date-picker .cell:hover {
     -fx-background-color: -fx-primary-color;
+    -fx-font-weight: bold;
     -fx-text-fill: white;
 }
 
@@ -38,21 +43,31 @@
 }
 
 .date-picker .selected {
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-background-color: -fx-primary-color;
     -fx-text-fill: white;
 }
 .date-picker .selected:focused {
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-background-color: -fx-primary-color;
     -fx-text-fill: white;
 }
 .date-picker-popup  {
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-border-color: black;
 }
 .date-picker-popup .month-year-pane {
-    -fx-background-color: -fx-primary-color;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-background-radius: 0;
 }
 .date-picker-popup .month-year-pane .label {
+    -fx-background-color: #000000;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-text-fill: white;
 }
 .date-picker-popup .week-number-cell {
@@ -61,6 +76,8 @@
 }
 
 .text-field{
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
     -fx-text-fill: white;
     -fx-background-color: #4d4d4d;
     -fx-background-radius: 20;
