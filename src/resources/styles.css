@@ -168,6 +168,15 @@ JFXButton:focused{
 
 }
 
+JFXButton:disabled{
+    -fx-background-color: #0e0e0e;
+    -fx-border-width: 2;
+    -fx-border-color: #1f92ea;
+    -fx-text-fill: #0092ff;
+    -fx-border-radius: 20;
+
+}
+
 .side_bar_button{
     -fx-text-fill: #989898;
     -fx-background-color: #353535;

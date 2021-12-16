@@ -124,29 +124,39 @@
                         <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
                      </opaqueInsets>
                   </TextArea>
-                  <HBox layoutX="62.0" layoutY="476.0" prefHeight="52.0" prefWidth="395.0" spacing="15.0" style="-fx-background-color: black;">
+                  <HBox layoutX="69.0" layoutY="470.0" prefHeight="41.0" prefWidth="382.0" spacing="8.0" style="-fx-background-color: black;">
                      <children>
-                        <JFXButton fx:id="add_par_bt" prefHeight="50.0" prefWidth="122.0" text="+ Paragraph" />
-                        <JFXButton fx:id="add_sec_bt" prefHeight="50.0" prefWidth="122.0" text="+ Section" />
-                        <JFXButton fx:id="add_subsec_bt" prefHeight="50.0" prefWidth="122.0" text="+ Sub Section" />
+                        <JFXButton fx:id="add_par_bt" prefHeight="40.0" prefWidth="122.0" text="+ Paragraph" />
+                        <JFXButton fx:id="add_sec_bt" prefHeight="40.0" prefWidth="122.0" text="+ Section" />
+                        <JFXButton fx:id="add_subsec_bt" prefHeight="40.0" prefWidth="122.0" text="+ Sub Section" />
                      </children>
                   </HBox>
                   <Label layoutX="104.0" layoutY="37.0" text="Paragraphs &amp; Sections" />
-                  <TextField fx:id="item_tf" layoutX="57.0" layoutY="545.0" prefHeight="41.0" prefWidth="395.0" promptText="Add a numbered item" />
-                  <TextField fx:id="FilePath_addition_tf" layoutX="57.0" layoutY="642.0" prefHeight="41.0" prefWidth="395.0" promptText="Add File Path in the middle of text" />
                   <JFXButton fx:id="line_break_bt" layoutX="346.0" layoutY="418.0" text="Line Break" />
-                  <HBox layoutX="169.0" layoutY="596.0" prefHeight="30.0" prefWidth="171.0" spacing="10.0">
+                  <VBox layoutX="63.0" layoutY="525.0" prefHeight="200.0" prefWidth="395.0" spacing="15.0" style="-fx-background-color: #0e0e0e;">
                      <children>
-                        <JFXButton fx:id="add_item" text="Add Iem" />
-                        <JFXButton fx:id="end_list" text="End List" />
+                        <TextField fx:id="item_tf" prefHeight="41.0" prefWidth="395.0" promptText="Add a numbered item" />
+                        <HBox prefHeight="30.0" prefWidth="171.0" spacing="10.0" style="-fx-background-color: #0e0e0e;">
+                           <children>
+                              <JFXButton fx:id="add_item" text="Add Iem" />
+                              <JFXButton fx:id="end_list" text="End List" />
+                           </children>
+                           <padding>
+                              <Insets left="113.0" />
+                           </padding>
+                        </HBox>
+                        <TextField fx:id="FilePath_addition_tf" prefHeight="41.0" prefWidth="395.0" promptText="Add File Path in the middle of text" />
+                        <HBox prefHeight="20.0" prefWidth="257.0" spacing="10.0" style="-fx-background-color: #0e0e0e;">
+                           <children>
+                              <JFXButton fx:id="file_path_button" prefHeight="27.0" prefWidth="122.0" text="Add Path" />
+                              <JFXButton fx:id="file_path_item_bt" prefHeight="27.0" prefWidth="122.0" text="Path in item" />
+                           </children>
+                           <padding>
+                              <Insets left="72.0" />
+                           </padding>
+                        </HBox>
                      </children>
-                  </HBox>
-                  <HBox layoutX="126.0" layoutY="696.0" prefHeight="20.0" prefWidth="257.0" spacing="10.0">
-                     <children>
-                        <JFXButton fx:id="file_path_button" prefHeight="27.0" prefWidth="122.0" text="Add Path" />
-                        <JFXButton fx:id="file_path_item_bt" prefHeight="27.0" prefWidth="122.0" text="Path in item" />
-                     </children>
-                  </HBox>
+                  </VBox>
                </children>
             </AnchorPane>
          </center>
@@ -234,9 +244,9 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <JFXComboBox fx:id="doc_type_c" prefHeight="36.0" prefWidth="322.0" GridPane.columnIndex="1" />
-                  <JFXComboBox fx:id="font_size_c" prefHeight="36.0" prefWidth="274.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <JFXComboBox fx:id="font_style_c" prefHeight="35.0" prefWidth="257.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <JFXComboBox fx:id="doc_type_c" focusColor="#0e0e0e" prefHeight="36.0" prefWidth="322.0" unFocusColor="#0e0e0e" GridPane.columnIndex="1" />
+                  <JFXComboBox fx:id="font_size_c" focusColor="#0e0e0e" prefHeight="36.0" prefWidth="274.0" unFocusColor="#0e0e0e" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <JFXComboBox fx:id="font_style_c" focusColor="#0e0e0e" prefHeight="35.0" prefWidth="257.0" unFocusColor="#0e0e0e" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <TextField fx:id="title_t" prefHeight="42.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <TextField fx:id="subtitle_t" prefHeight="50.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <TextField fx:id="author_t" prefHeight="45.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />

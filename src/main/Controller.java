@@ -51,6 +51,10 @@ public class Controller implements Initializable {
         font_size_c.setValue("a4paper");
         font_style_c.setValue("Serif");
 
+        author_t.setText("<Author Name here>");
+        title_t.setText("<Title goes here>");
+        subtitle_t.setText("<Subtitle here>");
+
         date_picker_t.setValue(LocalDate.now());
 
         proceed_bt.setOnAction(actionEvent -> {
