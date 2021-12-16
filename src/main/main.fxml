@@ -30,37 +30,37 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Document Type" wrappingWidth="186.13671875">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Document Type" wrappingWidth="186.13671875">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Font Size" wrappingWidth="186.13671875" GridPane.rowIndex="1">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Font Size" wrappingWidth="186.13671875" GridPane.rowIndex="1">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Font Style" wrappingWidth="186.13671875" GridPane.rowIndex="2">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Font Style" wrappingWidth="186.13671875" GridPane.rowIndex="2">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Title" wrappingWidth="186.13671875" GridPane.rowIndex="3">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Title" wrappingWidth="186.13671875" GridPane.rowIndex="3">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Subtitle" wrappingWidth="186.13671875" GridPane.rowIndex="4">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Subtitle" wrappingWidth="186.13671875" GridPane.rowIndex="4">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Author" wrappingWidth="186.13671875" GridPane.rowIndex="5">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Author" wrappingWidth="186.13671875" GridPane.rowIndex="5">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Date" wrappingWidth="186.13671875" GridPane.rowIndex="6">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: consolas; -fx-font-weight: bold;" styleClass="AnchorPane" text="Date" wrappingWidth="186.13671875" GridPane.rowIndex="6">
                <font>
                   <Font size="20.0" />
                </font>

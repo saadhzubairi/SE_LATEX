@@ -119,7 +119,7 @@
                   <TextField fx:id="ps_heading_tf" layoutX="62.0" layoutY="144.0" prefHeight="41.0" prefWidth="395.0" promptText="Add Heading" />
                   <Text layoutX="62.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heading" wrappingWidth="139.13671875" />
                   <Text layoutX="62.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Body Text" wrappingWidth="139.13671875" />
-                  <TextArea fx:id="ps_body_text_tf" layoutX="62.0" layoutY="237.0" prefHeight="217.0" prefWidth="395.0" promptText="Enter Paragraphs" styleClass="fx-textArea" stylesheets="@../resources/styles.css">
+                  <TextArea fx:id="ps_body_text_tf" layoutX="62.0" layoutY="237.0" prefHeight="217.0" prefWidth="395.0" promptText="Enter text to add" styleClass="fx-textArea" stylesheets="@../resources/styles.css">
                      <opaqueInsets>
                         <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
                      </opaqueInsets>
@@ -133,16 +133,16 @@
                   </HBox>
                   <Label layoutX="104.0" layoutY="37.0" text="Paragraphs &amp; Sections" />
                   <JFXButton fx:id="line_break_bt" layoutX="346.0" layoutY="418.0" text="Line Break" />
-                  <VBox layoutX="63.0" layoutY="525.0" prefHeight="200.0" prefWidth="395.0" spacing="15.0" style="-fx-background-color: #0e0e0e;">
+                  <VBox layoutX="63.0" layoutY="540.0" prefHeight="200.0" prefWidth="395.0" spacing="15.0" style="-fx-background-color: #0e0e0e;">
                      <children>
                         <TextField fx:id="item_tf" prefHeight="41.0" prefWidth="395.0" promptText="Add a numbered item" />
                         <HBox prefHeight="30.0" prefWidth="171.0" spacing="10.0" style="-fx-background-color: #0e0e0e;">
                            <children>
-                              <JFXButton fx:id="add_item" text="Add Iem" />
-                              <JFXButton fx:id="end_list" text="End List" />
+                              <JFXButton fx:id="add_item" prefWidth="122.0" text="Add Iem" />
+                              <JFXButton fx:id="end_list" prefWidth="122.0" text="End List" />
                            </children>
                            <padding>
-                              <Insets left="113.0" />
+                              <Insets left="72.0" />
                            </padding>
                         </HBox>
                         <TextField fx:id="FilePath_addition_tf" prefHeight="41.0" prefWidth="395.0" promptText="Add File Path in the middle of text" />
