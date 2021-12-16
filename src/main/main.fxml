@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.image.Image?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="574.0" styleClass="AnchorPane" stylesheets="@../resources/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <GridPane hgap="5.0" layoutX="45.0" layoutY="189.0" prefHeight="459.0" prefWidth="484.0" styleClass="gridpane" stylesheets="@../resources/styles.css" vgap="20.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Document Type" wrappingWidth="186.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Font Size" wrappingWidth="186.13671875" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Font Style" wrappingWidth="186.13671875" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Title" wrappingWidth="186.13671875" GridPane.rowIndex="3">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Subtitle" wrappingWidth="186.13671875" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Author" wrappingWidth="186.13671875" GridPane.rowIndex="5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-family: Arial;" styleClass="AnchorPane" text="Date" wrappingWidth="186.13671875" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <JFXComboBox fx:id="doc_type_c" focusColor="#1e1e1e" prefHeight="36.0" prefWidth="322.0" unFocusColor="#1e1e1e" GridPane.columnIndex="1" />
+            <JFXComboBox fx:id="font_size_c" focusColor="#1e1e1e" prefHeight="36.0" prefWidth="274.0" unFocusColor="#1e1e1e" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <JFXComboBox fx:id="font_style_c" focusColor="#1e1e1e" prefHeight="35.0" prefWidth="257.0" unFocusColor="#1e1e1e" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="title_t" prefHeight="42.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="subtitle_t" prefHeight="50.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="author_t" prefHeight="45.0" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <DatePicker fx:id="date_picker_t" prefHeight="59.0" prefWidth="219.0" stylesheets="@../resources/datepicker.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <JFXButton fx:id="add_subtitle_line" prefHeight="27.0" prefWidth="25.0" text="+" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="182.0" />
+               </GridPane.margin>
+            </JFXButton>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </GridPane>
+      <JFXButton fx:id="proceed_bt" layoutX="151.0" layoutY="678.0" prefHeight="49.0" prefWidth="274.0" text="PROCEED">
+         <font>
+            <Font size="22.0" />
+         </font></JFXButton>
+       <ImageView fx:id="img_view" fitHeight="150.0" fitWidth="303.0" layoutX="136.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" >
+       </ImageView>
+   </children>
+</AnchorPane>

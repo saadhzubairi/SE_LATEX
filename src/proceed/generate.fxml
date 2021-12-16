@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="762.0" prefWidth="1066.0" styleClass="AnchorPane" stylesheets="@../resources/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proceed.Generate">
+   <children>
+      <Label layoutX="279.0" layoutY="39.0" text="Copy the generated text into TexMaker" />
+      <Text layoutX="370.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="And see the magic unfold!" />
+      <TextArea fx:id="ta" layoutX="47.0" layoutY="148.0" prefHeight="560.0" prefWidth="973.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,211 @@
+.AnchorPane{
+    -fx-background-color: #0e0e0e;
+    -fx-text-fill: white;
+}
+GridPane{
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+Text{
+    -fx-fill: white;
+    -fx-font-size: 26;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+Label{
+    -fx-background-color: #008bff;
+    -fx-background-radius: 10;
+    -fx-label-padding: 10;
+    -fx-text-fill: white;
+    -fx-font-size: 26;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+
+VBox{
+    -fx-background-color: #353535;
+}
+
+HBox{
+    -fx-background-color: #252525;
+}
+.jfx-combo-box {
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-inner-color: white;
+    -fx-prompt-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-background-color: #4586b3;
+}
+
+.jfx-combo-box .arrow,
+.choice-box .arrow {
+    -fx-background-color: #4d4d4d;
+}
+
+.jfx-combo-box .cell {
+    -fx-font-size: 18;
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+}
+
+.jfx-combo-box .cell:hover {
+    -fx-background-color: #838383;
+    -fx-font-weight: bold;
+}
+
+.jfx-combo-box:hover {
+    -fx-font-size: 18;
+    -fx-background-color: #049eff;
+    -fx-text-fill: white;
+}
+.combo-box-popup .list-view .list-cell:filled:selected
+{
+    -fx-background-color: #0069ab;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background-color: #0097ff;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view{
+    -fx-background-color: #282828;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+TextField{
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1;
+}
+
+TextField:hover{
+    -fx-background-color: #6d6d6d;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1;
+}
+
+TextField :focused{
+    -fx-background-color: #666666;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1;
+}
+
+DatePicker{
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 1;
+    -fx-font-size: 18;
+}
+
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-text-fill: #0e0e0e;
+    -fx-background-radius: 20;
+    -fx-background-color: black;
+    -fx-control-inner-background:#4d4d4d;
+    -fx-text-fill: white;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .content{
+    -fx-font-size: 18;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+}
+
+.text-area .content:hover{
+    -fx-background-color: #626262;
+    -fx-background-radius: 20;
+}
+
+
+JFXButton{
+    -fx-text-fill: white;
+    -fx-background-color: #569cd6;
+    -fx-font-size: 15;
+    -fx-background-radius: 20;
+    -fx-font-family: "Arial Rounded MT Bold";
+}
+JFXButton:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #0089ff;
+}
+JFXButton:focused{
+    -fx-background-color: #0067ac;
+
+}
+
+.side_bar_button{
+    -fx-text-fill: #989898;
+    -fx-background-color: #353535;
+    -fx-background-radius: 0;
+
+}
+
+.side_bar_button:hover{
+    -fx-background-color: #6d6d6d;
+
+}
+
+ListView{
+    -fx-font-size: 18;
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-width: 1;
+}
+
+.list-cell{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-font-size: 18;
+    -fx-background-color: #0e0e0e;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #328BDB;
+    -fx-text-fill: white;
+}
+.list-cell:even {
+    -fx-background-color: #393939;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #517e99;
+    -fx-text-fill: white;
+}
