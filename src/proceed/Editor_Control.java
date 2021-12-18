@@ -384,7 +384,7 @@ public class Editor_Control implements Initializable {
                 }
 
                 else {
-                    PREVIEW_PANE.setText(PREVIEW_PANE.getText() +"\nCODE:[\n"
+                    PREVIEW_PANE.setText(PREVIEW_PANE.getText() +"\n(->)\tCODE:[\n"
                             + code_text_tf + "\n"
                             + code_tf.getText()
                             + "\n]");
@@ -398,7 +398,9 @@ public class Editor_Control implements Initializable {
             }
             else {
                 if(isList_start){
-                    PREVIEW_PANE.setText(PREVIEW_PANE.getText() +"\n(->) CODE:[\n"
+                    PREVIEW_PANE.setText(PREVIEW_PANE.getText() +"\n(->)\t"
+                                                                + code_text_tf.getText()
+                                                                + "\nCODE:[\n"
                                                                 + code_tf.getText()
                                                                 + "\n]");
                     final_str = final_str + "\n\\item "+ code_text_tf.getText()
