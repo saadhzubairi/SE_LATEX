@@ -43,9 +43,7 @@ public class ListItemAdder implements Initializable {
             }
             closeButtonAction();
         });
-        cancel_bt.setOnAction(actionEvent -> {
-            closeButtonAction();
-        });
+        cancel_bt.setOnAction(actionEvent -> closeButtonAction());
     }
 
     private void closeButtonAction(){

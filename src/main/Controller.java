@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import proceed.Editor_Control;
 
 import java.io.File;
@@ -71,6 +72,8 @@ public class Controller implements Initializable {
                 Stage stage = new Stage();
                 stage.setTitle("EDITOR");
                 stage.setScene(new Scene(root1));
+                stage.setResizable(false);
+                stage.initStyle(StageStyle.DECORATED);
                 stage.show();
             } catch (Exception e) {
                 e.printStackTrace();

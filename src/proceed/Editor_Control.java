@@ -107,28 +107,14 @@ public class Editor_Control implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         //sidebar buttons
-        TEXT.setOnAction(actionEvent -> {
-            BORDERPANE.setCenter(PARA_SECTIONS_ANCHPANE);
-        });
-        LIST.setOnAction(actionEvent -> {
-            BORDERPANE.setCenter(LIST_ANCHORPANE);
-        });
-        CODE.setOnAction(actionEvent -> {
-            BORDERPANE.setCenter(CODE_ANCHORPANE);
-        });
-        PATH.setOnAction(actionEvent -> {
-            BORDERPANE.setCenter(FILE_PATH_ANCHORPANE);
-        });
-        INFO.setOnAction(actionEvent -> {
-            BORDERPANE.setCenter(PREAMBLE_ANCHORPANE);
-        });
+        TEXT.setOnAction(actionEvent -> BORDERPANE.setCenter(PARA_SECTIONS_ANCHPANE));
+        LIST.setOnAction(actionEvent -> BORDERPANE.setCenter(LIST_ANCHORPANE));
+        CODE.setOnAction(actionEvent -> BORDERPANE.setCenter(CODE_ANCHORPANE));
+        PATH.setOnAction(actionEvent -> BORDERPANE.setCenter(FILE_PATH_ANCHORPANE));
+        INFO.setOnAction(actionEvent -> BORDERPANE.setCenter(PREAMBLE_ANCHORPANE));
 
-        zoom_in_pta.setOnAction(actionEvent -> {
-            zoom_pta(+1);
-        });
-        zoom_out_pta.setOnAction(actionEvent -> {
-            zoom_pta(-1);
-        });
+        zoom_in_pta.setOnAction(actionEvent -> zoom_pta(+1));
+        zoom_out_pta.setOnAction(actionEvent ->zoom_pta(-1));
 
         Timeline UpdateTracker = new Timeline(new KeyFrame(Duration.seconds(0.1), event -> {
 
